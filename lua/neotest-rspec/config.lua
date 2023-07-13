@@ -2,6 +2,7 @@ local M = {}
 
 M.get_rspec_cmd = function()
   return vim.tbl_flatten({
+    "doc",
     "bundle",
     "exec",
     "rspec",
